@@ -32,7 +32,7 @@ This General Terms of Engagement (the “Agreement”) is between  (the “Provi
 
    c) these General Terms; 
 
-  If you order Provider's Product from a Business Partner, any agreement that you enter into with the Business Partner is solely between you and the Business Partner and will not be binding on Provider except to the extent that your agreement with a Business Partner references this Agreement.**
+  If you order Provider's Product from a Business Partner, any agreement that you enter into with the Business Partner is solely between you and the Business Partner and will not be binding on Provider except to the extent that your agreement with a Business Partner references this Agreement.
 
 3. **Work Initiation.** The Client shall execute an SOW to purchase any products or services from the Provider, or to initiate any work under this Agreement.
 
