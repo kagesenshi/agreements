@@ -89,7 +89,7 @@ This General Terms of Engagement (the “Agreement”) is between  (the “Provi
 
     c) a force majeure event occurred.
 
-   Provider may terminate this Agreement or specific SOW upon mutual agreement in writing of Client and Provider, upon one or more of the following events: 
+    Provider may terminate this Agreement or specific SOW upon mutual agreement in writing of Client and Provider, upon one or more of the following events: 
 
     a) completion or cancellation of Project by Client or End Client
 
@@ -115,7 +115,7 @@ This General Terms of Engagement (the “Agreement”) is between  (the “Provi
 
     c) a termination fee equal to fifteen percent (15%) of the remaining balance of the SOW contract price as a "kill fee" to compensate for resource reallocation and administrative costs.
 
-   Provider shall have no obligation to transfer any licenses or Deliverables until all such payments are received in full.
+    Provider shall have no obligation to transfer any licenses or Deliverables until all such payments are received in full.
 
 20. **Payment For Metered Cloud Services.** Provider may, with Client approval, utilize Third Party Metered Services such as Infrastructure As A Service (IaaS), Platform As A Service (PaaS), Software As A Service (SaaS), Cloud Application Programming Interfaces (APIs) and other Cloud Services and Tools, to render Provider's Services under this Agreement. Provider may provide an estimated cost for the Cloud Services; however, Client acknowledges that all estimates are non-binding. Client agree to pay the billed metered amount in full. Client may choose to subscribe to the Cloud Services directly with the respective Cloud Services Provider, or may, subject to Provider’s written acceptance, appoint Provider to subscribe to the Cloud Services on behalf of Client. In the case which Client appointed Provider to subscribe to the Cloud Services on behalf of Client, Client agree to pay all applicable taxes and administrative fees in addition to the metered amount.
 
@@ -129,19 +129,19 @@ This General Terms of Engagement (the “Agreement”) is between  (the “Provi
 
 25. **Representation and Warranties.**
 
-   **Provider’s Representation:** Provider represents that any materials used in the Deliverable shall not knowingly
+    **Provider’s Representation:** Provider represents that any materials used in the Deliverable shall not knowingly
 
     a) infringe on the intellectual property rights of any third party or any rights of publicity or privacy or 
 
     b) violate any law, statute, ordinance or regulation.
 
-   **Client’s Representation:** Client represents that any materials provided to Provider by Client for incorporation into the Deliverable shall not
+    **Client’s Representation:** Client represents that any materials provided to Provider by Client for incorporation into the Deliverable shall not
 
     a) infringe on the intellectual property rights of any third party or any rights of publicity or privacy or 
 
     b) violate any law, statute, ordinance or regulation.
 
-   **Warranty Disclaimer.** EXCEPT FOR THE WARRANTIES SET FORTH IN THIS AGREEMENT AND ANY SOW, EACH PARTY EXPRESSLY DISCLAIMS ANY AND ALL OTHER WARRANTIES OF ANY KIND OR NATURE, WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  PROVIDER DOES NOT GUARANTEE ANY SPECIFIC UPTIME OR SERVICE LEVEL AGREEMENT (SLA) UNLESS EXPLICITLY STATED IN AN SOW; NO SERVICE CREDITS SHALL BE OWED FOR SERVICE INTERRUPTIONS UNLESS EXPRESSLY AGREED IN WRITING.
+    **Warranty Disclaimer.** EXCEPT FOR THE WARRANTIES SET FORTH IN THIS AGREEMENT AND ANY SOW, EACH PARTY EXPRESSLY DISCLAIMS ANY AND ALL OTHER WARRANTIES OF ANY KIND OR NATURE, WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  PROVIDER DOES NOT GUARANTEE ANY SPECIFIC UPTIME OR SERVICE LEVEL AGREEMENT (SLA) UNLESS EXPLICITLY STATED IN AN SOW; NO SERVICE CREDITS SHALL BE OWED FOR SERVICE INTERRUPTIONS UNLESS EXPRESSLY AGREED IN WRITING.
 
 26. **Indemnification.** Client shall defend, indemnify, and hold Provider harmless from and against any and all claims, losses, liabilities, damages, expenses, and costs (including reasonable attorneys’ fees, court costs, and regulatory fines) arising out of or relating to:
 
