@@ -96,8 +96,8 @@ def main():
     parser.add_argument(
         "-o",
         "--output",
-        default="terms.odt",
-        help="Output file name (default: terms.odt)",
+        default="output.odt",
+        help="Output file name (default: output.odt)",
     )
 
     args = parser.parse_args()
@@ -186,7 +186,7 @@ def main():
 
     try:
         subprocess.run(cmd, check=True)
-        print("Success!")
+        print(f"Success! Document generated: {args.output}")
     except subprocess.CalledProcessError as e:
         print(f"Pandoc command failed with exit code {e.returncode}", file=sys.stderr)
         sys.exit(e.returncode)
