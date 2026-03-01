@@ -26,7 +26,7 @@ def get_agreements_dir() -> Path:
 
 def get_templates_dir() -> Path:
     base_dir = get_base_dir()
-    for name in ["templates", "template"]:
+    for name in ["templates"]:
         p = base_dir / name
         if p.is_dir():
             return p
@@ -159,7 +159,7 @@ def main():
         sys.exit(1)
 
     # Construct pandoc command
-    # pandoc --reference-doc template/agreement.ott base/general-terms-of-engagement/content.md -o terms.odt --metadata-file vars.yml --lua-filter vars.lua
+    # pandoc --reference-doc templates/default.ott agreements/general-terms-of-engagement/content.md -o output.odt --metadata-file vars.yml --resource-path .:agreements/general-terms-of-engagement
     cmd = [
         "pandoc",
         "--reference-doc",
