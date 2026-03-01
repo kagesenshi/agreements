@@ -1,6 +1,8 @@
 ---
 title: Professional Services Terms Of Service
 version: 0.1.0
+appendix_title: Appendix A
+default_template: appendix.ott
 ---
 
 This Terms of Service (including any Exhibits) governs your use of the Professional Services and is subject to the General Terms of Engagement available at  or, as applicable, other base agreement between you (Client) and ${PROVIDER} (Provider). In the event of a conflict between this Terms of Service and the base agreement, the terms of this Terms of Service control.

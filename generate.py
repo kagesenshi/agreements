@@ -115,11 +115,6 @@ def main():
             "The -a/--agreement argument is required unless using listing flags (-l or -T)"
         )
 
-    if not args.template:
-        parser.error(
-            "The -t/--template argument is required unless using listing flags (-l or -T)"
-        )
-
     base_dir = get_base_dir()
 
     # Resolve agreement content.md
@@ -131,6 +126,22 @@ def main():
             file=sys.stderr,
         )
         sys.exit(1)
+
+    if not args.template:
+        template_name = "default.ott"
+        try:
+            with open(content_file, "r", encoding="utf-8") as f:
+                lines = f.readlines()
+                if lines and lines[0].strip() == "---":
+                    for line in lines[1:]:
+                        if line.strip() in ("---", "..."):
+                            break
+                        if line.startswith("default_template:"):
+                            template_name = line.split(":", 1)[1].strip().strip("'\"")
+                            break
+        except Exception:
+            pass
+        args.template = template_name
 
     # Resolve template
     template_file = Path(args.template)
