@@ -61,7 +61,7 @@ ${SPECIFIC_MODIFICATIONS_AND_OVERRIDES}
 
 \newpage
 
-**ORDER DETAILS**
+**APPENDIX A: ORDER DETAILS**
 
 | Item | Unit Of Measure | Quantity |
 | - | - | - |
@@ -69,6 +69,6 @@ ${SPECIFIC_MODIFICATIONS_AND_OVERRIDES}
 
 \newpage
 
-**SCOPE OF WORK**
+**APPENDIX B: SCOPE OF WORK**
 
 1) **\[Scope of work (if any)\]**
