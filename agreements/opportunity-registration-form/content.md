@@ -7,7 +7,7 @@ prime_address: "[PRIME_ADDRESS]"
 provider_name: "[PROVIDER]"
 provider_registration_no: "[PROVIDER_REGISTRATION_NO]"
 provider_address: "[PROVIDER_ADDRESS]"
-agreement_date: DD MMMM YYYY
+effective_date: DD MMMM YYYY
 end_client: "[END_CLIENT]"
 opportunity_name: "[OPPORTUNITY_NAME]"
 exclusivity: false
@@ -25,7 +25,7 @@ master_teaming_date:
 | - | - |
 | **Prime** | ${PRIME_NAME} (Registration No. ${PRIME_REGISTRATION_NO}) at ${PRIME_ADDRESS} |
 | **Provider** | ${PROVIDER_NAME} (Registration No. ${PROVIDER_REGISTRATION_NO}) at ${PROVIDER_ADDRESS} |
-| **Date** | ${AGREEMENT_DATE} |
+| **Date** | ${EFFECTIVE_DATE} |
 
 <br/>
 
