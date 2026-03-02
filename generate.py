@@ -23,7 +23,11 @@
 import argparse
 import subprocess
 import sys
+import yaml
+import re
+import tempfile
 from pathlib import Path
+from jinja2 import Environment, FileSystemLoader
 
 
 def get_base_dir() -> Path:
@@ -31,7 +35,6 @@ def get_base_dir() -> Path:
 
 
 def get_agreements_dir() -> Path:
-    # Check for both 'agreements' and 'base' as mentioned in prompt/example
     base_dir = get_base_dir()
     for name in ["agreements", "base"]:
         p = base_dir / name
@@ -73,6 +76,30 @@ def list_templates():
     for item in sorted(templates_dir.iterdir()):
         if item.is_file() and not item.name.startswith("."):
             print(f"  - {item.name}")
+
+
+def parse_frontmatter(content_file: Path):
+    """
+    Parses YAML frontmatter from a markdown file.
+    Returns a tuple of (metadata_dict, body_content).
+    """
+    metadata = {}
+    content = ""
+    try:
+        with open(content_file, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        if content.startswith("---"):
+            match = re.match(r"^---\s*\n(.*?)\n---\s*\n(.*)$", content, re.DOTALL)
+            if match:
+                frontmatter = match.group(1)
+                body = match.group(2)
+                metadata = yaml.safe_load(frontmatter) or {}
+                return metadata, body
+    except Exception as e:
+        print(f"Warning: Failed to parse frontmatter: {e}")
+
+    return metadata, content
 
 
 def main():
@@ -143,23 +170,31 @@ def main():
         )
         sys.exit(1)
 
-    if not args.template:
-        template_name = "default.ott"
-        try:
-            with open(content_file, "r", encoding="utf-8") as f:
-                lines = f.readlines()
-                if lines and lines[0].strip() == "---":
-                    for line in lines[1:]:
-                        if line.strip() in ("---", "..."):
-                            break
-                        if line.startswith("default_template:"):
-                            template_name = line.split(":", 1)[1].strip().strip("'\"")
-                            break
-        except Exception:
-            pass
-        args.template = template_name
+    # Load variables from vars.yml
+    vars_file = Path(args.vars_file)
+    if not vars_file.exists():
+        print(f"Error: Variables file not found at {vars_file}", file=sys.stderr)
+        sys.exit(1)
+
+    with open(vars_file, "r", encoding="utf-8") as f:
+        global_vars = yaml.safe_load(f) or {}
+
+    # Parse frontmatter and body
+    metadata, body = parse_frontmatter(content_file)
+
+    # Merge variables (frontmatter overrides globals)
+    # Also uppercase keys for compatibility with ${VAR} style in lua if needed,
+    # but we will use Jinja2.
+    all_vars = {**global_vars, **metadata}
+
+    # Uppercase versions for ${VAR} legacy support
+    legacy_vars = {k.upper(): v for k, v in all_vars.items() if isinstance(k, str)}
+    all_vars.update(legacy_vars)
 
     # Resolve template
+    if not args.template:
+        args.template = metadata.get("default_template", "default.ott")
+
     template_file = Path(args.template)
     if not template_file.exists():
         # Lookup in templates dir
@@ -168,41 +203,61 @@ def main():
             print(f"Error: Template file not found: {args.template}", file=sys.stderr)
             sys.exit(1)
 
-    # Resolve vars file
-    vars_file = Path(args.vars_file)
-    if not vars_file.exists():
-        print(f"Error: Variables file not found at {vars_file}", file=sys.stderr)
+    # Preprocess body using Jinja2
+    env = Environment(loader=FileSystemLoader(str(agreement_dir)))
+
+    # We want to support both Jinja2 tags and ${VAR} style replacements.
+    # We can use Jinja2 for the tags, then a simple regex/replace for ${VAR}.
+    try:
+        jinja_template = env.from_string(body)
+        rendered_body = jinja_template.render(**all_vars)
+
+        # Legacy support for ${VAR}
+        def legacy_replace(match):
+            name = match.group(1).upper()
+            return str(all_vars.get(name, match.group(0)))
+
+        rendered_body = re.sub(r"\$\{(.*?)\}", legacy_replace, rendered_body)
+
+    except Exception as e:
+        print(f"Error during template preprocessing: {e}", file=sys.stderr)
         sys.exit(1)
 
-    # Construct pandoc command
-    # pandoc --reference-doc templates/default.ott agreements/general-terms-of-engagement/content.md -o output.odt --metadata-file vars.yml --resource-path .:agreements/general-terms-of-engagement
-    cmd = [
-        "pandoc",
-        "--reference-doc",
-        str(template_file),
-        str(content_file),
-        "-o",
-        args.output,
-        "--metadata-file",
-        str(vars_file),
-        "--resource-path",
-        f".:{agreement_dir}",
-    ]
-
-    filters_dir = base_dir / "filters"
-    if filters_dir.exists() and filters_dir.is_dir():
-        for lua_filter in sorted(filters_dir.glob("*.lua")):
-            cmd.extend(["--lua-filter", str(lua_filter)])
-        for regular_filter in sorted(filters_dir.glob("*.filter")):
-            cmd.extend(["--filter", str(regular_filter)])
-    else:
-        print(f"Warning: filters directory {filters_dir} not found.")
-
-    print(f"Running command: {' '.join(cmd)}")
+    # Write rendered content to a temporary file
+    with tempfile.NamedTemporaryFile(mode="w", suffix=".md", delete=False) as tmp:
+        # Re-add metadata as YAML frontmatter for pandoc if needed (e.g. for title)
+        tmp.write("---\n")
+        yaml.dump(metadata, tmp)
+        tmp.write("---\n\n")
+        tmp.write(rendered_body)
+        tmp_path = tmp.name
 
     try:
+        # Construct pandoc command
+        cmd = [
+            "pandoc",
+            "--reference-doc",
+            str(template_file),
+            tmp_path,
+            "-o",
+            args.output,
+            "--metadata-file",
+            str(vars_file),
+            "--resource-path",
+            f".:{agreement_dir}",
+        ]
+
+        filters_dir = base_dir / "filters"
+        if filters_dir.exists() and filters_dir.is_dir():
+            for lua_filter in sorted(filters_dir.glob("*.lua")):
+                cmd.extend(["--lua-filter", str(lua_filter)])
+            for regular_filter in sorted(filters_dir.glob("*.filter")):
+                cmd.extend(["--filter", str(regular_filter)])
+
+        print(f"Running command: {' '.join(cmd)}")
         subprocess.run(cmd, check=True)
         print(f"Success! Document generated: {args.output}")
+
     except subprocess.CalledProcessError as e:
         print(f"Pandoc command failed with exit code {e.returncode}", file=sys.stderr)
         sys.exit(e.returncode)
@@ -212,6 +267,9 @@ def main():
             file=sys.stderr,
         )
         sys.exit(1)
+    finally:
+        if Path(tmp_path).exists():
+            Path(tmp_path).unlink()
 
 
 if __name__ == "__main__":

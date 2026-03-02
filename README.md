@@ -13,16 +13,23 @@ To view a copy of this license, visit [http://creativecommons.org/publicdomain/z
 
 THE DOCUMENTS, TEMPLATES, AND SCRIPTS PROVIDED IN THIS REPOSITORY ARE FOR INFORMATIONAL AND EDUCATIONAL PURPOSES ONLY. THEY DO NOT CONSTITUTE LEGAL ADVICE AND SHOULD NOT BE RELIED UPON AS SUCH. THERE IS ABSOLUTELY NO WARRANTY, EXPRESS OR IMPLIED, REGARDING THE LEGAL EFFICACY, ACCURACY, OR SUITABILITY OF ANY OF THE DOCUMENTS OR CODE PROVIDED HERE. YOU ASSUME ALL RESPONSIBILITY AND RISK FOR THE USE OF THESE MATERIALS. IT IS STRONGLY RECOMMENDED TO CONSULT WITH A QUALIFIED ATTORNEY BEFORE USING ANY LEGAL DOCUMENTS.
 
-## Prerequisites
-
 - [pandoc](https://pandoc.org/) (must be installed and available in your PATH)
+- [uv](https://docs.astral.sh/uv/) (installed for managing python package and environment)
+
+## Setup
+
+Initialize the environment and install dependencies:
+
+```bash
+uv sync
+```
 
 ## Usage
 
-The primary script for generating documents is `generate.py`.
+The primary script for generating documents is `generate.py`. Use `uv run` to execute it:
 
 ```bash
-./generate.py -a <agreement_name> [options]
+uv run generate.py -a <agreement_name> [options]
 ```
 
 ### Options
@@ -36,21 +43,19 @@ The primary script for generating documents is `generate.py`.
 | `-l` | `--list` | List all available agreements based on the `agreements/` folder content. |
 | `-T` | `--list-templates`| List all available templates based on the `templates/` folder content. |
 
-### Examples
-
 **List available agreements:**
 ```bash
-./generate.py --list
+uv run generate.py --list
 ```
 
 **Generate a document:**
 ```bash
-./generate.py -a my-agreement -o signed_contract.odt
+uv run generate.py -a my-agreement -o signed_contract.odt
 ```
 
 **Generate a document with a specific metadata file and template:**
 ```bash
-./generate.py -a my-agreement -f custom_vars.yml -t custom.ott -o output.odt
+uv run generate.py -a my-agreement -f custom_vars.yml -t custom.ott -o output.odt
 ```
 
 ## Directory Structure

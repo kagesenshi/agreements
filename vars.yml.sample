@@ -1,2 +1,2 @@
 provider: ACME CORP
-agreement_url: http://acme.corp/agreements/
+agreements_url: http://acme.corp/agreements/
