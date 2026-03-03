@@ -31,7 +31,7 @@ B. **QUALIFICATION AND ELIGIBILITY**
 
    3. **Protection for Rejected Leads:** If the Recipient rejects an Introduction, the Recipient agrees not to enter into any business relationship with the rejected Prospective Client for a period of **twelve (12) months** following the date of rejection. 
 
-   4. **Fee Trigger for Rejected Leads:** Notwithstanding Section B.3, if the Recipient conducts business with a rejected Prospective Client within the twelve (12) month period, such business shall be deemed a "Successful Contract" under these terms, and the Business Development Fee shall be immediately payable on all resulting Gross Revenue.
+   4. **Fee Trigger for Rejected Leads:** Notwithstanding Section B.3, if the Recipient conducts business with a rejected Prospective Client for the same or similar opportunity as originally introduced within the twelve (12) month period, such business shall be deemed a "Successful Contract" under these terms, and the Business Development Fee shall be payable on all resulting Gross Revenue.
 
    5. **Abuse Prevention:** If the Referrer repeatedly submits leads that fail to meet the qualification criteria, the Recipient may, in its sole discretion, terminate these Business Development Terms or the primary agreement immediately upon written notice.
 
