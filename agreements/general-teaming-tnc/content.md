@@ -1,6 +1,7 @@
 ---
 title: General Teaming Terms and Conditions
-version: 1.0.0
+version: 1.0.1
+agreements_url: https://koslab.org/agreements
 ---
 
 These General Teaming Terms and Conditions ("Teaming Terms") establish the framework under which the party designated as the prime contractor ("Prime") and the party designated as the subcontractor or service provider ("Provider") (collectively referred to as the "Parties" and individually as a "Party"), shall cooperate to identify, qualify, and pursue business opportunities. These Teaming Terms are incorporated by reference into the primary agreement between the Parties or any Opportunity Registration executed hereunder.
@@ -73,7 +74,7 @@ These General Teaming Terms and Conditions ("Teaming Terms") establish the frame
 
     a) **Response Materials.** All proposals and documents developed jointly for an Opportunity ("Response Materials") are jointly owned. Neither Party shall use Response Materials, in whole or in part, to work with, team with, or support any other third party for the same Opportunity without the express written consent of the other Party. 
 
-    b) **Technical Artifacts.** Except for Response Materials, any intellectual property created or developed by a Party during the response or qualification phase (including, but not limited to, software code, algorithms, scripts, technical architectures, or methodologies) shall be the sole and exclusive property of the Party that created it.
+    b) **Technical Artifacts.** Except for Response Materials, any Technical Artifacts created or developed by a Party during the response or qualification phase (including, but not limited to, software code, algorithms, scripts, technical architectures, or methodologies) shall be the sole and exclusive property of the Party that created it.
 
 **TERM**
 
@@ -128,15 +129,15 @@ These General Teaming Terms and Conditions ("Teaming Terms") establish the frame
 
 \newpage
 
-## SAMPLE OPPORTUNITY REGISTRATION FORM
+# SAMPLE OPPORTUNITY REGISTRATION FORM
 
 **PARTIES INFORMATION**
 
 |   |   |
-| - | - |
+| - | --- |
 | **Prime** | \[Name of Prime\] (Registration No. \[Prime Registration No\]) \[Address of Prime\] |
 | **Provider** | \[Name of Provider\] (Registration No. \[Provider Registration No\]) \[Address of Provider\] |
-| **Date** | \[Date of Teaming\] |
+| **Effective Date** | \[Date of Teaming\] |
 
 <br/>
 
@@ -161,8 +162,15 @@ By executing this Opportunity Registration, the Parties acknowledges that they h
 | **Customer** | \[Name of Government Agency or Corporation\] |
 | **Opportunity Name (RFI/RFP No.)** | \[Project Name / Number\] |
 | **Exclusivity** | Exclusive / Non-exclusive |
-| **Alternative Delivery Commission Rate**  | Default 10% / Negotiated : \[XX\]% (Applicable only if Prime elects an alternative delivery partner in lieu of Provider as per section 11 of General Teaming Terms and Conditions) |
-| **Provider Proposed Workshare** | \[List of scopes involved by Provider\] |
+| **Alternative Delivery Commission Rate\***  | Default 10% / Negotiated : \[XX\]% 
+
+<br/>
+
+*Note: Alternative Delivery Commission Rate is applicable only if Prime elects an alternative delivery partner in lieu of Provider as per section 11 of General Teaming Terms and Conditions
+
+**PROVIDER PROPOSED WORKSHARE**
+
+1. \[List of scopes involved by Provider\]
 
 <br/>
 
@@ -172,11 +180,13 @@ By executing this Opportunity Registration, the Parties acknowledges that they h
 
 <br/>
 
-**IN WITNESS WHEREOF,** the parties have executed this Opportunity Registration by their duly authorized representatives.
+**IN WITNESS WHEREOF,** the parties have executed this Opportunity Registration by their duly authorized representatives on Effective Date.
 
 | **For and on behalf of Prime**    | **For and on behalf of Provider** |
 | - | - |
 | Signature: | Signature: |
+| | |
+| | |
 | Name: | Name: |
 | Position: | Position: |
 | Date: | Date: |
