@@ -193,7 +193,7 @@ def main():
 
     # Resolve template
     if not args.template:
-        args.template = metadata.get("default_template", "default.ott")
+        args.template = metadata.get("default_template", "default.odt")
 
     template_file = Path(args.template)
     if not template_file.exists():

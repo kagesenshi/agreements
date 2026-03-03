@@ -2,7 +2,7 @@
 title: Training Terms Of Service
 version: 0.1.0
 appendix_title: Appendix 2
-default_template: appendix.ott
+default_template: appendix.odt
 ---
 
 This Terms of Service (including any Exhibits) governs your use of the Training Services and is subject to the General Terms of Engagement available at  or, as applicable, other base agreement between you ("Client") and ${PROVIDER} ("Provider"). In the event of a conflict between this Terms of Service and the base agreement, the terms of this Terms of Service control.

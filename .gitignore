@@ -1,1 +1,38 @@
-vars.yml
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.pytype/
+
+# Generated Output
+output.odt
+output.pdf
+output.docx
+
+# LibreOffice / OpenOffice lock files
+.~lock.*#
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+/vars.yml
+!/vars.yml.sample
