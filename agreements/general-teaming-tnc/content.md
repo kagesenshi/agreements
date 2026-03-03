@@ -1,6 +1,6 @@
 ---
 title: General Teaming Terms and Conditions
-version: 0.1.0
+version: 1.0.0
 ---
 
 These General Teaming Terms and Conditions ("Teaming Terms") establish the framework under which the party designated as the prime contractor ("Prime") and the party designated as the subcontractor or service provider ("Provider") (collectively referred to as the "Parties" and individually as a "Party"), shall cooperate to identify, qualify, and pursue business opportunities. These Teaming Terms are incorporated by reference into the primary agreement between the Parties or any Opportunity Registration executed hereunder.
