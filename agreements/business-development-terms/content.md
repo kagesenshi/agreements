@@ -24,8 +24,11 @@ These Business Development Service Terms ("Business Development Terms") establis
    (a) **Definition of Qualified Lead:** A "Qualified Lead" is a Prospective Client that meets the following minimum criteria at the time of Introduction:
 
        1. **Need:** The Prospective Client has a demonstrable need for the Recipient's services or products.
+
        2. **Authority:** The contact provided is a decision-maker or has significant influence over procurement.
+
        3. **Budget:** There is a reasonable expectation of budget availability for the proposed engagement.
+
        4. **No Conflict:** The Prospective Client is not an existing customer, partner, or in active negotiation with the Recipient.
 
    (b) **Right of Rejection:** The Recipient reserves the right to reject any Introduction that does not meet the criteria of a Qualified Lead or is otherwise incompatible with the Recipient’s strategic interests. The Recipient shall notify the Referrer of any rejection within five (5) business days of the Introduction.
