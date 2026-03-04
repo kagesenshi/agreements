@@ -1,6 +1,6 @@
 ---
 title: Professional Services Terms Of Service
-version: 0.1.0
+version: 1.0.0
 appendix_title: Appendix 1
 default_template: appendix.odt
 ---
@@ -47,7 +47,7 @@ Unless set forth otherwise in the applicable Statement of Work (“SOW”), the 
 
       iii) Training and transfer of knowledge activities are subject to Training Services Terms of Service.
 
-   d) Work shall only commence after the acceptance of the SOW and Quotation by Client.
+   d) Work shall only commence after the acceptance of the SOW and Purchase Order by Client.
 
    e) Upon completion and delivery of the Deliverables, Client shall be given three (3) business days ("Acceptance Period") to verify the Deliverables for completeness or defects and notify the Provider in written for resolution. If there are no written notification after the Acceptance Period, the Deliverables shall be automatically considered as accepted and related payments would be due.
 
@@ -89,7 +89,7 @@ Unless set forth otherwise in the applicable Statement of Work (“SOW”), the 
 
    a) Client shall be responsible for fully describing business requirements and their respective acceptance criteria to Provider including completing any questionnaires from Provider, along with current business processes and data processing overview.
 
-   b) Client should assign a Project Manager who will:
+   b) Client should assign a Project Manager, Project Coordinator or equivalent single point of contact who will:
 
       i) be available to Provider personnel throughout the engagement;
 
@@ -105,11 +105,11 @@ Unless set forth otherwise in the applicable Statement of Work (“SOW”), the 
 
 7. **Engagement Management**. Unless mutually agreed upon, Client shall engage a minimum of one (1) Consulting Unit of Engagement Manager day for every five (5) Consulting Unit of Consultant for the purpose of engagement management.
 
-8. **Travel Expenses.** Client shall pay travel and other expenses incurred by Provider in performing the Services. In the event of Client requested the engagement to be canceled or rescheduled within thirty (30) days prior to the start date of the SOW ("Scheduled Date"), Client shall reimburse Provider for any non-refundable travel expenses that were booked prior to Provider’s receipt of Client’s request to cancel or reschedule. In the event of Client requested the engagement to be canceled or rescheduled within fourteen (14) or fewer days prior to the Scheduled Date:
+8. **Travel Expenses.** Client shall pay travel and other expenses incurred by Provider in performing the Services outside of **${AREA_COVERAGE}**. In the event of Client requested the engagement to be canceled or rescheduled within thirty (30) days prior to the start date of the SOW ("Scheduled Date"), Client shall reimburse Provider for any non-refundable travel expenses that were booked prior to Provider’s receipt of Client’s request to cancel or reschedule. In the event of Client requested the engagement to be canceled or rescheduled within fourteen (14) or fewer days prior to the Scheduled Date:
 
    a) Client shall reimburse Provider for any non-refundable travel expenses that were booked prior to Provider’s receipt of Client’s request to cancel or reschedule; and
 
-   b) Provider shall be entitled to invoice and Client agrees to pay a reschedule fee of MYR 10,000 which shall be in addition to the fees set forth in the SOW.
+   b) Provider shall be entitled to invoice and Client agrees to pay a reschedule fee of MYR 10,000, or a negotiated amount which shall be in addition to the fees set forth in the SOW.
 
 9. **Change Control Process.** If either party wishes to make changes to the SOW, including but not limited to modifying the scope of work or the fees, such changes shall only be effective upon mutual agreement and execution of a “Change Order” describing such changes.  Provider shall have no obligation to provide Services pursuant to a Change Order unless both parties have executed a Change Order.
 

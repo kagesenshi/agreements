@@ -1,6 +1,7 @@
 ---
 title: General Terms Of Engagement
-version: 0.1.0
+version: 1.0.0
+area_coverage: Klang Valley
 ---
 
 PLEASE READ THIS AGREEMENT CAREFULLY BEFORE PURCHASING AND/OR USING SOFTWARE OR SERVICES FROM **${PROVIDER}** ("PROVIDER"). BY USING THE PROVIDER'S SOFTWARE OR SERVICES, YOU ("CLIENT") SIGNIFIES ITS ASSENT TO AND ACCEPTANCE OF THIS AGREEMENT AND ACKNOWLEDGES IT HAS READ AND UNDERSTANDS THIS AGREEMENT. AN INDIVIDUAL ACTING ON BEHALF OF AN ENTITY REPRESENTS THAT HE OR SHE HAS THE AUTHORITY TO ENTER INTO THIS AGREEMENT ON BEHALF OF THAT ENTITY. IF CLIENT DOES NOT ACCEPT THE TERMS OF THIS AGREEMENT, THEN IT MUST NOT USE  SOFTWARE OR SERVICES. 
@@ -102,13 +103,13 @@ This General Terms of Engagement (the “Agreement”) is between the Provider a
 
 14. **Staffing.** Staffing shall consist of full-time and part-time employees of Provider and also may, at Provider's election, include the use of partner resources and/or subcontractors in the provision of the Services. In the event of unavailability of personnel from specific category, Provider shall assign alternative personnel with equivalent capabilities.
 
-15. **Working Hours.** Unless otherwise agreed by the parties in writing, Services shall be performed Monday through Friday, between the hours of 9:00 a.m. – 5:00 p.m. Malaysian time. Consultants shall work eight (8) hours per day and forty (40) hours per week unless otherwise mutually agreed by the parties in writing. Work outside of the hours above, work on weekends or on Public holidays must be pre-approved in writing by Provider.
+15. **Working Hours.** Unless otherwise agreed by the parties in writing, Services shall be performed Monday through Friday, between the hours of 9:00 a.m. – 6:00 p.m. Malaysian time. Consultants shall work eight (8) hours per day and forty (40) hours per week unless otherwise mutually agreed by the parties in writing. Work outside of the hours above, work on weekends or on Public holidays must be pre-approved in writing by Provider.
 
-16. **Non Solicitation.** Unless otherwise consented in writing, both parties agrees not to solicit, offer employment to, nor use the services of any employee of the other party who is involved in Project during the term of this Agreement and for a period of six (6) months thereafter. 
+16. **Non Solicitation.** Unless otherwise consented in writing, both parties agrees not to solicit, offer employment to, nor use the services of any employee of the other party who is involved in Project during the term of this Agreement and for a period of twelve (12) months thereafter. 
 
 17. **Premise of Work.** Services shall be performed at the Client site ("On-premise") or a remote location (“Remote” or “Remotely”) which has physical or virtual access to the applicable Client hardware. If applicable, any documentation may be completed remotely at Provider discretion.
 
-18. **Payment.** In exchange for Provider’s Services under this Agreement, the Client shall pay Provider the contract price of the SOW. Provider shall submit a final invoice to Client for all services rendered by the Services Completion Date and Client shall promptly pay. Client is restricted from using any form of the Deliverable until final payment is received. Client shall pay travel and other expenses incurred by Provider in performing the Services. In the event of a good faith dispute with regard to an item appearing on an invoice, Provider shall have the right to withhold the Deliverable while the parties attempt to resolve the disputes. 
+18. **Payment.** In exchange for Provider’s Services under this Agreement, the Client shall pay Provider the contract price of the SOW. Provider shall submit a final invoice to Client for all services rendered by the Services Completion Date and Client shall promptly pay. Client is restricted from using any form of the Deliverable until final payment is received. Client shall pay travel and other expenses incurred by Provider in performing the Services outside of **${AREA_COVERAGE}**. In the event of a good faith dispute with regard to an item appearing on an invoice, Provider shall have the right to withhold the Deliverable while the parties attempt to resolve the disputes. 
 
 19. **Payment Upon Termination.** In the event of termination for any reason other than an uncured material breach by Provider, unless otherwise agreed upon in writing, Client shall pay Provider for:
 
