@@ -1,6 +1,6 @@
 ---
 title: General Teaming Terms and Conditions
-version: 1.0.1
+version: 1.0.2
 agreements_url: https://koslab.org/agreements
 ---
 
@@ -48,15 +48,17 @@ These General Teaming Terms and Conditions ("Teaming Terms") establish the frame
 
     b) **Commission Obligation.** If Prime’s notice indicates an intent to utilize Provider's materials, or if Prime otherwise utilizes such materials in its submission, Prime hereby agrees to pay Provider the Opportunity Commission, contingent upon and subject to the successful award of the contract to Prime by the Customer. Prime shall provide written notification to Provider within five (5) business days of receiving cleared payment from the Customer for the Workshare. Such Commission shall be payable within thirty (30) days after Prime has received cleared payment, subject to receipt of a valid invoice from Provider.
 
-    c) **Commission Basis (Workshare).** Except as provided in Section 11(d), the Opportunity Commission shall be calculated based on the gross revenue received by Prime from the Customer attributable to the Provider's Workshare in the Opportunity Registration.
+    c) **Commission Basis (Workshare).** Except as provided in Section 11(d), the Opportunity Commission shall be calculated based on the Gross Revenue received by Prime from the Customer attributable to the Provider's Workshare in the Opportunity Registration.
 
-    d) **Full Proposal Support.** Notwithstanding Section 11(c), if Prime requests and Provider provides support for the preparation of the entire proposal or response for the Opportunity, the Commission shall be calculated based on the total gross revenue received by Prime for the full contract award.
+    d) **Full Proposal Support.** Notwithstanding Section 11(c), if Prime requests and Provider provides support for the preparation of the entire proposal or response for the Opportunity, the Commission shall be calculated based on the total Gross Revenue received by Prime for the full contract award.
 
     e) **Commission Rate.** The Commission Rate shall be the percentage specified in the Opportunity Registration. If no rate is specified, the default Rate shall be ten percent (10%).
 
     f) **Warranty and Termination.** If Prime’s notice states it will not utilize Provider’s Response Materials or Technical Artifacts, such notice constitutes a formal warranty of non-use, and no Opportunity Commission shall be applicable or payable. Notwithstanding the foregoing, any utilization of such materials in violation of this warranty shall trigger the Commission payment obligation. The issuance of notice under this Section 11 immediately terminates the applicable Opportunity Registration, but the warranty and commission obligations contained herein shall survive such termination for a period of twelve (12) months from the date of termination.
 
     g) **Commission Ineligibility.** Notwithstanding the foregoing, the Opportunity Commission shall not be applicable or payable to Provider in the event that Provider exercises its right of election not to proceed with the pursuit or the execution of a subcontract pursuant to Section 10.
+
+    h) **Gross Revenue.** For the purposes of this Section 11, "Gross Revenue" means the actual gross monetary amount received by Prime from the Customer for the relevant work (as defined in Section 11(c) or 11(d), as applicable), excluding any (i) sales, service, or value-added taxes; (ii) shipping, insurance, or freight charges; (iii) refunds, credits, or rebates actually granted to the Customer; and (iv) any pass-through costs or third-party license fees specifically identified in the awarded contract.
 
 **PROPRIETARY INFORMATION AND NON-DISCLOSURE**
 
