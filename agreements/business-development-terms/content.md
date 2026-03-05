@@ -30,6 +30,7 @@ These Business Development Service Terms ("Business Development Terms") establis
 
 
 2. **STRUCTURE**
+
    The Agreement consists of several components. If the documents conflict, the following order of precedence applies:
 
    (a) The specific terms in an executed Referral Registration;
@@ -96,57 +97,57 @@ These Business Development Service Terms ("Business Development Terms") establis
 
 10. **INTELLECTUAL PROPERTY**
 
-   (a) **Background IP:** Each Party retains ownership of its pre-existing intellectual property. No license is granted except as necessary to perform the services described herein.
+    (a) **Background IP:** Each Party retains ownership of its pre-existing intellectual property. No license is granted except as necessary to perform the services described herein.
 
-   (b) **Marketing Materials:** Any marketing materials or technical artifacts provided by the Referrer remain the property of the Referrer. The Recipient is granted a limited, non-exclusive license to use such materials solely for the purpose of pursuing the specific Opportunity associated with the Introduction.
+    (b) **Marketing Materials:** Any marketing materials or technical artifacts provided by the Referrer remain the property of the Referrer. The Recipient is granted a limited, non-exclusive license to use such materials solely for the purpose of pursuing the specific Opportunity associated with the Introduction.
 
 11. **NON-CIRCUMVENTION**
 
-   (a) The Recipient agrees not to bypass, avoid, or circumvent the Referrer by entering into business directly with a Prospect introduced by the Referrer (including any rejected leads within the period specified in Section 5(b)) with the intent of excluding the Referrer from their rightful Business Development Fee. 
+    (a) The Recipient agrees not to bypass, avoid, or circumvent the Referrer by entering into business directly with a Prospect introduced by the Referrer (including any rejected leads within the period specified in Section 5(b)) with the intent of excluding the Referrer from their rightful Business Development Fee. 
 
-   (b) This clause applies during the term of this Agreement and for a period of **twelve (12) months** following the termination or expiration of this Agreement.
+    (b) This clause applies during the term of this Agreement and for a period of **twelve (12) months** following the termination or expiration of this Agreement.
 
 12. **INDEPENDENT CONTRACTOR**
 
-   (a) The Referrer is an independent contractor. Nothing in this Agreement shall create a partnership, joint venture, agency, or employment relationship. The Referrer has no authority to bind the Recipient to any contract or obligation.
+    (a) The Referrer is an independent contractor. Nothing in this Agreement shall create a partnership, joint venture, agency, or employment relationship. The Referrer has no authority to bind the Recipient to any contract or obligation.
 
 13. **CONFIDENTIALITY**
 
-   (a) Each Party agrees to keep confidential all sensitive business information, trade secrets, and client data disclosed by the other Party. 
+    (a) Each Party agrees to keep confidential all sensitive business information, trade secrets, and client data disclosed by the other Party. 
 
 14. **ANTI-BRIBERY AND CORRUPTION (MACC ACT)**
  
-   (a) The Parties acknowledge the provisions of the **Malaysian Anti-Corruption Commission Act 2009** (specifically Section 17A regarding Corporate Liability). 
+    (a) The Parties acknowledge the provisions of the **Malaysian Anti-Corruption Commission Act 2009** (specifically Section 17A regarding Corporate Liability). 
 
-   (b) The Referrer warrants that it has not and will not offer, promise, give, or accept any gratification, bribe, or corrupt inducement to/from any person (including public officials or employees of the Prospect) to secure business for the Recipient. 
+    (b) The Referrer warrants that it has not and will not offer, promise, give, or accept any gratification, bribe, or corrupt inducement to/from any person (including public officials or employees of the Prospect) to secure business for the Recipient. 
 
-   (c) Breach of this clause shall grant the Recipient the right to terminate this Agreement immediately with no further liability to pay any outstanding fees.
+    (c) Breach of this clause shall grant the Recipient the right to terminate this Agreement immediately with no further liability to pay any outstanding fees.
 
 15. **LIMITATION OF LIABILITY**
 
-   (a) **Indirect Damages:** To the maximum extent permitted by law, neither Party shall be liable for indirect, incidental, special, or consequential damages (including loss of profits) arising out of these terms.
+    (a) **Indirect Damages:** To the maximum extent permitted by law, neither Party shall be liable for indirect, incidental, special, or consequential damages (including loss of profits) arising out of these terms.
 
-   (b) **Aggregate Cap:** Each Party’s total liability for all claims related to these terms shall not exceed the total Business Development Fees paid or payable under the applicable Referral Registration, or a fixed sum of RM 10,000 if no fee is applicable.
+    (b) **Aggregate Cap:** Each Party’s total liability for all claims related to these terms shall not exceed the total Business Development Fees paid or payable under the applicable Referral Registration, or a fixed sum of RM 10,000 if no fee is applicable.
 
-   (c) **Exclusions:** The caps in Section 15(b) shall not apply to breaches of Confidentiality, infringement of IP, or gross negligence/willful misconduct.
+    (c) **Exclusions:** The caps in Section 15(b) shall not apply to breaches of Confidentiality, infringement of IP, or gross negligence/willful misconduct.
 
 16. **NON-SOLICITATION**
 
-   (a) Neither Party shall knowingly solicit for employment any employee of the other Party who was directly involved in the activities hereunder during the term and for twelve (12) months thereafter, without prior written consent.
+    (a) Neither Party shall knowingly solicit for employment any employee of the other Party who was directly involved in the activities hereunder during the term and for twelve (12) months thereafter, without prior written consent.
 
 17. **MISCELLANEOUS PROVISIONS**
 
-   (a) **Severability:** If any provision is held illegal or unenforceable, it shall be severed, and the remaining provisions shall continue in full force.
+    (a) **Severability:** If any provision is held illegal or unenforceable, it shall be severed, and the remaining provisions shall continue in full force.
 
-   (b) **Survival:** Provisions regarding Confidentiality, Non‑Circumvention, Liability, and Audit shall survive termination for the periods specified in their respective sections (e.g., twelve (12) months for Non‑Circumvention).
+    (b) **Survival:** Provisions regarding Confidentiality, Non‑Circumvention, Liability, and Audit shall survive termination for the periods specified in their respective sections (e.g., twelve (12) months for Non‑Circumvention).
 
-   (c) **Notices:** All notices shall be in writing and delivered personally, by email, or by recognized courier to the address specified in the primary agreement.
+    (c) **Notices:** All notices shall be in writing and delivered personally, by email, or by recognized courier to the address specified in the primary agreement.
 
 18. **GOVERNING LAW AND JURISDICTION**
 
-   (a) This Agreement shall be governed by and construed in accordance with the **Laws of Malaysia**. 
+    (a) This Agreement shall be governed by and construed in accordance with the **Laws of Malaysia**. 
 
-   (b) Any dispute arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the Courts of Malaysia.
+    (b) Any dispute arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the Courts of Malaysia.
 
 
 \newpage
@@ -183,9 +184,16 @@ These Business Development Service Terms ("Business Development Terms") establis
 
 **INCORPORATED TERMS**
 
-This Referral Registration is issued pursuant to, and is governed by, the Agreement. The order of precedence set out in **Section 2** of the Business Development Service Terms shall apply to any conflicts.
+This Referral Registration is issued pursuant to, and is governed by, the following documents (collectively, the "Agreement"). If the documents conflict, the following order of precedence applies:
 
-By executing this Referral Registration, the Parties acknowledge that they have read, understood, and agree to be bound by the Agreement in its entirety.
+1. This Referral Registration including the Specific Modifications And Overrides
+
+2. Business Development Services Agreement entered between Referrer and Recipient on \[Business Development Services Agreement Date\]
+
+3. Business Development Service Terms at ${AGREEMENTS_URL}
+
+By executing this Referral Registration, the Parties acknowledges that they have read, understood, and agree to be bound by the Agreement in its entirety. This Referral Registration and the Agreement shall be governed by the laws of Malaysia.
+
 
 <br/>
 
@@ -193,7 +201,7 @@ By executing this Referral Registration, the Parties acknowledge that they have 
 
 |   |   |
 | - | - |
-| **End Client (Prospect)** | \[Name of End Client\] |
+| **Prospect** | \[Name of Prospect\] |
 | **Opportunity Name** | \[Project / Opportunity Name\] |
 | **Expected Level of Involvement** | \[Simple Introduction / Deal Secured by Referrer / Account Management during Delivery\] |
 | **Simple Introduction Rate** | 3% |
@@ -207,7 +215,7 @@ By executing this Referral Registration, the Parties acknowledge that they have 
 
 1. \[List of modifications\]
 
-\newpage
+<br/>
 
 **IN WITNESS WHEREOF,** the parties have executed this Referral Registration by their duly authorized representatives on the Effective Date.
 
