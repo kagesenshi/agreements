@@ -17,19 +17,27 @@ Unless set forth otherwise in the applicable Statement of Work (“SOW”), the 
 
 2. **Service Engagement Process.** Client agree that the following process shall apply for the engagement of Professional Services.
 
-   a) Unless mutually agreed upon, requests for services engagement should be made in writing to Provider in not less than five (5) working days prior to commencement of Services.
+   a) Provider should create a SOW, and estimate the contract price required to render the service in the form of Quotation and submit them for acceptance by Client. Client should assist Provider by promptly providing all information requests required for the creation of the SOW.
 
-      i) Services engagement with Service Level Agreement (“SLA”) shorter than five (5) working days shall be pre-paid as Consulting Unit bucket and consumed by drawing down the bucket.
+   b) Unless mutually agreed upon, requests for services engagement should be made in writing to Provider in not less than five (5) working days prior to commencement of Services. Provider requires a minimum of five (5) working days lead time for deployment of Services from the acceptance of the SOW and Purchase Order.
 
-      ii) A minimum draw-down of 0.1 Consulting Unit will be charged daily as standby fee for services with SLA that requires outside of working hours response time, and 0.2 Consulting Unit shall be charged daily for services with SLA that requires 24/7 response time.
+   c) SOW Service fees should be priced as fixed fee, or based on Consulting Unit estimation utilizing rates agreed upon between Client and Provider in a Schedule Of Services.
 
-   b) Provider should create a SOW, and estimate the contract price required to render the service in the form of Quotation and submit them for acceptance by Client. Client should assist Provider by promptly providing all information requests required for the creation of the SOW. Unless otherwise agreed upon in writing,
+   d) For service engagements requiring a committed response time Service Level Agreement ("Response Time SLA"), the following rules shall apply:
 
-      i) a single SOW shall be limited to Deliverables that can be completed within a four (4) weeks cycle or less. Activities that would require more than four (4) weeks to deliver shall be split into multiple SOW to be delivered consecutively.
+      i) Services engagement requiring a Response Time SLA shall be **pre-paid** as Consulting Unit bucket and consumed by drawing down the bucket.
 
-      ii) SOW Service fees should be priced as fixed fee, or based on Consulting Unit estimation utilizing rates agreed upon between Client and Provider in a Schedule Of Services ("Estimated SOW Price").
+      ii) A minimum draw-down of 0.1 Consulting Unit will be charged daily as standby fee for services with Response Time SLA that requires outside of working hours response coverage, and 0.2 Consulting Unit shall be charged daily for services with Response Time SLA that requires 24x7 response coverage.
 
-      iii) if SOW Services is based on Consulting Unit estimation, at completion of a cycle, Provider shall calculate the fees based on the actual Consulting Unit spent to deliver the SOW ("Effective SOW Price"). In the event of the Effective SOW Price is less than Estimated SOW Price, the effective billable fees for the SOW ("Final SOW Contract Price") shall be:
+   e) If SOW Services is based on Consulting Unit estimation, unless agreed upon in writing or a different engagement model is specified in the SOW, the engagement shall follow Agile Contracting framework, rules as follows:
+
+      i) Client and Provider shall agree on a Maximum Target Price for the overall engagement.
+
+      ii) A single SOW shall be limited to Deliverables that can be completed within a four (4) weeks sprint cycle or less. Activities that would require more than four (4) weeks to deliver shall be split into multiple SOW to be delivered consecutively. 
+
+      iii) Provider shall estimated Consulting Unit required to deliver the SOW ("Estimated SOW Price").
+
+      iv) At completion of a sprint cycle, Provider shall calculate the fees based on the actual Consulting Unit spent to deliver the SOW ("Effective SOW Price"). In the event of the Effective SOW Price is less than Estimated SOW Price, the effective billable fees for the SOW ("Final SOW Contract Price") shall be:
 
             EC = Effective SOW Cost
 
@@ -37,11 +45,11 @@ Unless set forth otherwise in the applicable Statement of Work (“SOW”), the 
 
             Final SOW Contract Price = EC + (20% x (OC - EC))
 
-      In the event of the Effective SOW Price is higher than the Estimated SOW Price, the Final SOW Contract Price shall be the same as the Estimated SOW Price.
+      v) In the event of the Effective SOW Price is higher than the Estimated SOW Price, the Final SOW Contract Price shall be the same as the Estimated SOW Price.
 
-      iv) before the commencement of subsequent cycle, Provider and Client have an option to review the subsequent related SOW and Provider have an option to re-estimate the SOW contract price. Client upon mutual agreement in writing of Client and Provider, may choose to proceed with the revised SOW and Quotation or terminate the engagement.
+      vi) Before the commencement of subsequent cycle, Provider and Client have an option to review the subsequent related SOW and Provider have an option to re-estimate the SOW contract price. Client upon mutual agreement in writing of Client and Provider, may choose to proceed with the revised SOW and Quotation or terminate the engagement.
 
-   c) Unless mutually agreed upon in writing, following rules shall apply:
+   f) Unless mutually agreed upon in writing, following rules shall apply:
 
       i) Professional Services shall not cover the service to design, develop, nor conduct training activities.
 
@@ -49,15 +57,13 @@ Unless set forth otherwise in the applicable Statement of Work (“SOW”), the 
 
       iii) Training and transfer of knowledge activities are subject to Training Services Terms of Service.
 
-   d) Work shall only commence after the acceptance of the SOW and Purchase Order by Client.
+   g) Work shall only commence after the acceptance of the SOW and Purchase Order.
 
-   e) Upon completion and delivery of the Deliverables, Client shall be given three (3) business days ("Acceptance Period") to verify the Deliverables for completeness or defects and notify the Provider in written for resolution. If there are no written notification after the Acceptance Period, the Deliverables shall be automatically considered as accepted and related payments would be due.
+   h) Upon completion and delivery of the Deliverables, Client shall be given five (5) business days ("Acceptance Period") to verify the Deliverables for completeness or defects and notify the Provider in written for resolution. If there are no written notification after the Acceptance Period, the Deliverables shall be automatically considered as accepted and related payments would be due.
 
 3. **Consulting Unit.** Each Consulting Unit shall be up to a maximum of eight (8) hours and utilization of a Consultant for any hours within a day shall constitute a single Consulting Unit. Unless mutually agreed upon or stated otherwise in the applicable SOW, Services shall be engaged in accordance to following rules:
 
-   a) Client agrees to engage a Consultant for a minimum of five (5) consecutive business days.
-
-   b) Following activities shall be considered as utilization of Consultant:
+   a) Following activities shall be considered as utilization of Consultant:
 
       i) Attendance to a meeting with Client, Client employee(s) or Client representative(s) for purpose(s) related to the delivery of the SOW.
 
@@ -67,17 +73,17 @@ Unless set forth otherwise in the applicable Statement of Work (“SOW”), the 
 
       iv) Travel to Client premise(s) or other premise(s) for purpose(s) related to the delivery of the SOW.
 
-   c) Utilization in excess of eight (8) hours in a single day on weekdays shall be constituted as two (2) Consulting Unit utilization.
+   b) Utilization in excess of eight (8) hours in a single day on weekdays shall be constituted as two (2) Consulting Unit utilization.
 
-   d) Utilization less than four (4) hours outside of business hours on weekdays shall be constituted as one-and-half (1.5) Consulting Unit utilization.
+   c) Utilization less than four (4) hours outside of business hours on weekdays shall be constituted as one-and-half (1.5) Consulting Unit utilization.
 
-   e) Utilization during weekends and public holidays shall be constituted as two (2) Consulting Unit utilization.
+   d) Utilization during weekends and public holidays shall be constituted as two (2) Consulting Unit utilization.
 
-   f) Utilization in excess of eight (8) hours in a single day on weekends and public holidays shall be constituted as three (3) Consulting Unit utilization.
+   e) Utilization in excess of eight (8) hours in a single day on weekends and public holidays shall be constituted as three (3) Consulting Unit utilization.
 
-   g) Time spent on traveling to Client premise shall be added into utilized hours.
+   f) Time spent on traveling to Client premise shall be added into utilized hours.
 
-   h) Phone or on-line consulting shall be considered as an engagement and be calculated into utilized hours.
+   g) Phone or on-line consulting shall be considered as an engagement and be calculated into utilized hours.
 
 4. **Provider Responsibilities.**
 
@@ -133,7 +139,7 @@ Unless set forth otherwise in the applicable Statement of Work (“SOW”), the 
 
 15. **Acceptance Process.** For Services performed on a time and materials basis, Provider deliverables to Client shall only be the utilized Consulting Unit and shall be deemed accepted upon delivery. Utilized Consulting Unit shall be invoiced monthly based on actual Consulting Unit utilized. Provider shall use commercially reasonable efforts to complete Services described in the SOW but does not guarantee such Services shall be completed within the allotted hours or days set forth in the SOW.  If additional Consulting Unit are required, the parties must mutually approve and execute a Change Order.
    
-    For Services performed on a fixed fee basis to include documentation deliverables or other deliverables (the “Deliverables”), Provider shall notify Client upon delivery of the Deliverables and Client shall have three (3) business days to review such Deliverables (the "Acceptance Period") to confirm that the Deliverables conform to any acceptance criteria as may be set forth in the SOW.  Within the Acceptance Period, Client must provide to Provider in writing its acceptance of the Deliverables or a notification of any issues or deficiencies.  In the event of notification of any issues or deficiencies, Provider may, in its sole discretion, either promptly revise the Deliverables and resubmit them for Client review, or if such revision and re-submission is not reasonably practicable, as Client’s sole remedy and Provider’s exclusive obligation, Provider shall undo, retract, or remove artifacts created as part of the non-confirming Deliverable, refund any pre-paid fees for the non-conforming Deliverable, the SOW shall terminate and no further fees shall be due under the SOW.  If Client fails to provide Provider written notice of either acceptance or notification of issues or deficiencies within the Acceptance Period, the Deliverable(s) shall be deemed accepted and any related payments shall become due.
+    For Services performed on a fixed fee basis to include documentation deliverables or other deliverables (the “Deliverables”), Provider shall notify Client upon delivery of the Deliverables and Client shall have five (5) business days to review such Deliverables (the "Acceptance Period") to confirm that the Deliverables conform to any acceptance criteria as may be set forth in the SOW.  Within the Acceptance Period, Client must provide to Provider in writing its acceptance of the Deliverables or a notification of any issues or deficiencies.  In the event of notification of any issues or deficiencies, Provider may, in its sole discretion, either promptly revise the Deliverables and resubmit them for Client review, or if such revision and re-submission is not reasonably practicable, as Client’s sole remedy and Provider’s exclusive obligation, Provider shall undo, retract, or remove artifacts created as part of the non-confirming Deliverable, refund any pre-paid fees for the non-conforming Deliverable, the SOW shall terminate and no further fees shall be due under the SOW.  If Client fails to provide Provider written notice of either acceptance or notification of issues or deficiencies within the Acceptance Period, the Deliverable(s) shall be deemed accepted and any related payments shall become due.
 
 \newpage
 
