@@ -1,6 +1,6 @@
 ---
 title: General Teaming Terms and Conditions
-version: 1.0.2
+version: 1.0.3
 agreements_url: https://koslab.org/agreements
 ---
 
@@ -137,8 +137,8 @@ These General Teaming Terms and Conditions ("Teaming Terms") establish the frame
 
 |   |   |
 | - | --- |
-| **Prime** | \[Name of Prime\] (Registration No. \[Prime Registration No\]) \[Address of Prime\] |
-| **Provider** | \[Name of Provider\] (Registration No. \[Provider Registration No\]) \[Address of Provider\] |
+| **Prime** | **\[Name of Prime\] (Registration No. \[Prime Registration No\])** \[Address of Prime\] |
+| **Provider** | **\[Name of Provider\] (Registration No. \[Provider Registration No\])** \[Address of Provider\] |
 | **Effective Date** | \[Date of Teaming\] |
 
 <br/>
@@ -151,7 +151,7 @@ This Opportunity Registration Form ("Opportunity Registration") is issued pursua
 
 2. Master Teaming Agreement  (if any) entered between Prime and Provider on \_\_\_ (day) of \_\_\_\_\_ (month), 20\_\_ (year)
 
-3. General Teaming Terms and Conditions at ${AGREEMENT_URL}
+3. General Teaming Terms and Conditions at ${AGREEMENTS_URL}
 
 By executing this Opportunity Registration, the Parties acknowledges that they have read, understood, and agree to be bound by the Agreement in its entirety. This Opportunity Registration and the Agreement shall be governed by the laws of Malaysia.
 

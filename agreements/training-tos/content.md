@@ -3,12 +3,12 @@ title: Training Terms Of Service
 version: 1.0.0
 appendix_title: Appendix 2
 default_template: appendix.odt
-agreement_url: https://koslab.org/agreements
+agreements_url: https://koslab.org/agreements
 ---
 
-This Terms of Service (including any Exhibits) governs your use of the Training Services and is subject to the General Terms of Engagement available at  or, as applicable, other base agreement between you ("Client") and **${PROVIDER}** ("Provider"). In the event of a conflict between this Terms of Service and the base agreement, the terms of this Terms of Service control.
+This Terms of Service (including any Exhibits) governs your use of the Training Services and is subject to the General Terms of Engagement ("General Terms") available at ${AGREEMENTS_URL} or, as applicable, other base agreement between you ("Client") and **${PROVIDER}** ("Provider"). In the event of a conflict between this Terms of Service and the General Terms, the terms of this Terms of Service control.
 
-The Provider may modify this Terms of Service by posting a revised version at ${AGREEMENT_URL}, or by providing notice using other reasonable means.
+The Provider may modify this Terms of Service by posting a revised version at ${AGREEMENTS_URL}, or by providing notice using other reasonable means.
 
 Unless set forth otherwise in the applicable Statement of Work (“SOW”), the following terms shall apply to Training Services ("Services"):
 
