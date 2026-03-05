@@ -139,8 +139,7 @@ def main():
     parser.add_argument(
         "-o",
         "--output",
-        default="output.odt",
-        help="Output file name (default: output.odt)",
+        help="Output file name (default: {agreement_name}-v{version}.odt)",
     )
 
     args = parser.parse_args()
@@ -181,6 +180,11 @@ def main():
 
     # Parse frontmatter and body
     metadata, body = parse_frontmatter(content_file)
+
+    # Resolve output filename
+    if not args.output:
+        version = metadata.get("version", "1")
+        args.output = f"{args.agreement}-v{version}.odt"
 
     # Merge variables (CLI/metadata file overrides frontmatter)
     # Also uppercase keys for compatibility with ${VAR} style in lua if needed,
