@@ -137,9 +137,15 @@ def main():
         help="Location of vars.yml metadata file (default: vars.yml)",
     )
     parser.add_argument(
+        "--format",
+        nargs="?",
+        const="pdf",
+        help="Output format (e.g. pdf, odt) to use when output filename is not provided (defaults to pdf if flag is provided without value)",
+    )
+    parser.add_argument(
         "-o",
         "--output",
-        help="Output file name (default: {agreement_name}-v{version}.odt)",
+        help="Output file name (default: {agreement_name}-v{version}.odt, or .{format})",
     )
 
     args = parser.parse_args()
@@ -181,10 +187,14 @@ def main():
     # Parse frontmatter and body
     metadata, body = parse_frontmatter(content_file)
 
+    if args.format and args.output:
+        parser.error("Argument --format cannot be used together with --output")
+
     # Resolve output filename
     if not args.output:
         version = metadata.get("version", "1")
-        args.output = f"{args.agreement}-v{version}.odt"
+        fmt = args.format.lstrip(".") if args.format else "odt"
+        args.output = f"{args.agreement}-v{version}.{fmt}"
 
     # Merge variables (CLI/metadata file overrides frontmatter)
     # Also uppercase keys for compatibility with ${VAR} style in lua if needed,
